@@ -1,4 +1,4 @@
-```sh
+
 import random
 
 print('Welcome To the Password Generator')
@@ -15,4 +15,3 @@ print('/nhere are your passwords:')
 
 for pwd in range(number):
   
-```
