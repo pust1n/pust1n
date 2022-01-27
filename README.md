@@ -11,8 +11,3 @@ language_learning = "Python"
 
 print(f"Hello! I am {name}. Currently I am learning {language_learning}.")
 ```
-The output should be 
-
-```sh
-Hello! I am Justin. Currently I am learning Python.
-```
