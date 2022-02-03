@@ -28,6 +28,6 @@ while player == False:
             print("You win!")
     else:
         print("That's not a valid play. Check spelling!")
-    #player was set to True, but we want it to be False so the loop continues
+    
     player = False
     computer = t[randint(0,2)]
