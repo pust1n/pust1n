@@ -13,21 +13,21 @@ while player == False:
         print("Tie!")
     elif player == "Rock":
         if computer == "Paper":
-            print("You lose!", computer, "covers", player)
+            print("You lose!")
         else:
-            print("You win!", player, "smashes", computer)
+            print("You win!")
     elif player == "Paper":
         if computer == "Scissors":
-            print("You lose!", computer, "cut", player)
+            print("You lose!")
         else:
-            print("You win!", player, "covers", computer)
+            print("You win!")
     elif player == "Scissors":
         if computer == "Rock":
-            print("You lose...", computer, "smashes", player)
+            print("You lose...")
         else:
-            print("You win!", player, "cut", computer)
+            print("You win!")
     else:
-        print("That's not a valid play. Check your spelling!")
+        print("That's not a valid play. Check spelling!")
     #player was set to True, but we want it to be False so the loop continues
     player = False
     computer = t[randint(0,2)]
