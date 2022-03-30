@@ -1,0 +1,5 @@
+number= input('Enter a Binary number:')
+int_number= int(number, 2)
+float_number= float(int_number)
+print('The float conversion is:', float_number)
+print(type(float_number))
